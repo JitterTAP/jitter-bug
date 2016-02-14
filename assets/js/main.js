@@ -22,6 +22,6 @@ function loadingAnimation(andThen) {
 
 function upgradeCSS() {
   loadingAnimation(function() {
-    document.getElementById('mainstyles').href = 'assets/css/main.css?' + Math.random();
+    window.reload();
   });
 }
