@@ -22,6 +22,6 @@ function loadingAnimation(andThen) {
 
 function upgradeCSS() {
   loadingAnimation(function() {
-    window.reload();
+    window.location.reload();
   });
 }
