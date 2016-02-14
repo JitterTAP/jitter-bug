@@ -19,6 +19,7 @@ h1 {
 }
 
 h1 img {
+  display: none;
   vertical-align: text-top;
   width: 1em;
 }
