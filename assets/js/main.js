@@ -1,4 +1,4 @@
-var jitterbug = new WebSocket('ws://ec2-52-10-33-198.us-west-2.compute.amazonaws.com:15000/jitterdog', []);
+var jitterbug = new WebSocket('ws://ec2-52-10-33-198.us-west-2.compute.amazonaws.com:16000/jitterdog', []);
 
 jitterbug.onopen = function() {
   jitterbug.send('HAI');
